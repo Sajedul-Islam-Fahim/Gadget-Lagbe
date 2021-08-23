@@ -1,0 +1,91 @@
+.container{
+    font-family: "Poppins";  
+}
+.container li a{
+    color: gray !important;
+}
+
+.bg{
+    background-image: url("bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wal{
+    background-image: url("bg-2.png");
+    background-repeat: no-repeat;
+    background-position: bottom left ;
+}
+.carousel{
+    padding: 20px 40px;
+}
+.carousel-indicators .active{
+    
+    background-image: linear-gradient(to right,#FF9C35 100%,#FFD019 0% );
+}
+.carousel-indicators button{
+    background-image: linear-gradient(to right,black 0%,white 100% );
+    
+}
+.categories{
+    margin-bottom: 100px;
+}
+
+.buy-now-button{
+    background-color: #000000;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.yellow-bg{
+    color:#FF9D00 ;
+}
+.card{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px  #DDDDDD ;
+    
+}
+.card button{
+    display: grid;
+    margin: auto;
+}
+
+.card h3{
+    color: black;
+    font-weight: 600;
+}
+.card p{
+    color: gray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+.categories h1{
+    margin-bottom: 100px;
+    
+}
+
+.cat1{
+    width: 100%;
+    padding: 50px 50px;
+    border-radius: 5px 10px 5px 20px;
+    box-shadow: 0 5px 20px  #DDDDDD ;
+
+}
+.cat2{
+    width: 70%;
+    padding: 50px 50px;
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 0 5px 20px  #DDDDDD ;
+}
+.cat3{
+    width: 70%;
+    padding: 50px 50px;
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 0 5px 20px  #DDDDDD ;
+}
